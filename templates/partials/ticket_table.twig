@@ -1,0 +1,31 @@
+<!-- Table -->
+<table class="table">
+
+<thead>
+	<tr>
+		<th>#</th>
+		<th>Ticket name</th>
+		<th>Description</th>
+		<th>Priority</th>
+		<th>Start Date</th>
+		<th>End Date</th>
+		<th>User Assing</th>
+	</tr>
+</thead>
+
+<tbody>	
+	{% for ticket in tickets %}
+	<tr>   	
+		<th>{{ticket.id}}</th>
+		<th>{{ticket.name}}</th>
+		<th>{{ticket.description}}</th>
+		<th>{{ticket.priority}}</th>
+		<th>{{ticket.start_date}}</th>
+		<th>{{ticket.end_date}}</th>
+		<th>{{ticket.userAssing}}</th>
+	 </tr>	
+{% endfor %}	
+
+</tbody>
+
+</table>

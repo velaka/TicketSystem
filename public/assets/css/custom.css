@@ -1,0 +1,312 @@
+.top-barr
+{
+	height: 55px;
+    width: 100%;
+    background-color: #282828;  
+    display: inline-block;
+}
+
+.top-barr .logo
+{
+        position: inherit;
+	display: inline-block;
+	height: 55px;
+    width: 200px;
+    background-color: #ff5d72;
+    font-size: x-large;
+    color: #282828;
+    font-weight: bold;
+    font-family: cursive;
+        font-size: 14px;
+    font-weight: bolder;
+}
+.top-barr .logo img
+{    position: relative;
+    margin: 8px;
+    vertical-align: top;
+    height: 85px;
+}
+
+.top-barr .top-main-bar
+{
+	display: inline-block;
+	
+}
+.top-barr .top-main-bar .ticket_menu
+{
+    padding-left: 15px;
+    margin-top: 15px;
+    position: absolute;
+}
+.top-barr .top-main-bar a
+{
+    vertical-align: -webkit-baseline-middle;
+    color: white;
+    font-size: 14px;
+    
+    font-weight: bolder;
+    padding: 7px;
+}
+.top-barr .top-main-bar .new_ticket
+{
+    background-color: #ff5d72;
+    border: 0px;
+    height: 25px;
+    width: 100px;
+    border-radius: 15px;
+    color: white;
+}
+.top-barr .top-right-nav
+{
+	display: inline-block;
+	float: right;
+    margin: 13px;
+}
+.top-barr .top-right-nav .line
+{
+        margin-top: 0px;
+    margin-bottom: 0px;
+    width: 85%;
+}
+.contentt
+{
+	background: #f6f6f6;
+}
+.contentt .left-barr
+{
+	width: 200px;
+    background-color: #282828;
+    height: 583px;
+    display: inline-block;
+}
+.contentt .left-barr ul
+{
+        padding-top: 25px;
+}
+.contentt .left-barr ul li 
+{
+	padding: 18px;
+}
+.contentt .left-barr a
+{
+        color: white;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.contentt .left-barr .widget
+{
+    background: aliceblue;
+    bottom: 0;
+    position: absolute;
+    height: 170px;
+    width: 200px;
+}
+.contentt .base-contentt
+{
+     position: absolute;
+
+    margin: 25px;
+    vertical-align: top;
+    width: 1075px;
+    background: white;
+    display: inline-block;
+    border-radius: 8px;
+    vertical-align: -webkit-baseline-middle;
+}
+.dropdown-menu{    
+    position: absolute;
+    top: 100%;
+    left: -150px;
+    z-index: 1000;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    background-clip: padding-box;
+}
+/* dashboard design forth start*/
+.contentt .base-contentt .containers
+{
+    padding: 10px;
+}
+.contentt .base-contentt .containers .main .first
+{
+    width: 351px;
+    height: 506px;
+    background-color: green;
+    display: inline-block;
+}
+.contentt .base-contentt .containers .group ,.contentt .base-contentt .containers .main
+{
+    display: inline-block;
+    vertical-align: top;
+}
+.contentt .base-contentt .containers .group .second
+{
+    width: 700px;
+    height: 270px;
+    background-color: green;
+    vertical-align: top;
+}
+.contentt .base-contentt .containers .group .thirth,.contentt .base-contentt .containers .group .fourth
+{   
+    
+    width: 348px;
+    height: 231px;
+    background-color: green;
+    margin-top: 4px;
+    display:inline-block; ;
+}
+/* dashboard design forth end*/
+
+
+/* dashboard design thirth start*/
+
+.contentt .base-contentt .containers .group .small
+{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    display: inline-block;
+}
+.contentt .base-contentt .containers .group .bigger
+{
+   width: 751px;
+    height: 300px;
+    background-color: green;
+    display: inline-block; 
+}
+
+.contentt .base-contentt .containers .main .biggest
+{
+     width: 1056px;
+    height: 199px;
+    background-color: green;
+    display: inline-block; 
+} 
+
+/* dashboard design thirth end*/
+.contentt .base-contentt .project_box
+{
+    color: #797979;
+    vertical-align: top;
+    margin: 13px;
+    width: 240px;
+    height: 220px;
+    background-color: #f6f6f6;
+    display: inline-block;
+    border-radius: 8px;
+}
+.contentt .base-contentt .project_box .status
+{
+        font-weight: 700;
+        display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.contentt .base-contentt .project_box .type
+{
+        font-weight: 700;
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.contentt .base-contentt .project_box .name
+{
+    color: #ff5d72;
+    font-size: 21px;
+    font-family: cursive;
+    font-weight: bolder;
+    margin: 6px 0px 13px 10px;
+}
+.contentt .base-contentt .project_box .days_left
+{
+    width: 217px;
+    margin-left: 11px;
+    border-radius: 20px;
+    background-color: #f6f6f6;
+    border: 2px solid #797979;
+   
+}
+.contentt .base-contentt .project_box .days_left label
+{
+    line-height: normal;
+    font-family: cursive;
+    font-size: 9px;
+}
+
+.contentt .base-contentt .project_box .days_left .label_second
+{
+    margin-left: 4px;
+}
+.contentt .base-contentt .project_box .days_left .design
+{
+    display: inline-block;
+    font-size: 28px;
+    margin: 25px 3px 25px 10px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.contentt .base-contentt .project_box .days_left .finish
+{
+    display: inline-block;
+    font-size: 28px;
+    float: right;
+    margin: 25px 10px 25px 3px;
+    font-family: cursive;
+    font-weight: bolder;
+     
+
+
+}
+.contentt .base-contentt .project_box .days_left hr
+{
+    border-top: 0px;
+    display: inline-block;
+    width: 1px;
+    height: 52px;
+    background-color: #797979;;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contentt .base-contentt .project_box .tickets
+{
+    margin-top: 25px;
+   border-top: 2px solid #4a4a4a;
+    background-color: #4a4a4a;
+    color: white;
+    height: 45px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.contentt .base-contentt .project_box .tickets .todo
+{
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: -webkit-baseline-middle;
+    font-size: 17px;
+}
+.contentt .base-contentt .project_box .tickets .doing
+{
+    font-size: 17px;
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: -webkit-baseline-middle;
+}
+.contentt .base-contentt .project_box .tickets .done
+{
+    font-size: 17px;
+    vertical-align: -webkit-baseline-middle;
+    display: inline-block;
+    margin-left: 40px;
+}

@@ -1,0 +1,59 @@
+<div class="ticket_menu">
+	<a href="todo">todo</a>
+	<a href="doing">doing</a>
+	<a href="done">done</a>
+	<input type="button" name="new_ticket" value="new ticket" class="new_ticket" 
+		onclick="document.getElementById('pop_up').style.display='block'" style="width:auto;"  >
+
+	<div id="pop_up" class="modal">
+	  <span onclick="document.getElementById('pop_up').style.display='none'" class="close" title="Close Modal">×</span>
+	  <form action='./todo' class="modal-content animate" method="post" >
+	    <div class="container">
+			<h4><b>Add a new Ticket</b></h4>
+			
+			<label id="label"><b>Ticket Name</b></label>
+			<input id="ticketName" type="text" placeholder="Ticket Name" name="name" required>
+
+			<label id="label"><b>Description</b></label>
+			<input id="description" type="text" placeholder="Description" name="des" required>
+
+			<div id="rightpart">
+				<label><b>Priority</b></label>
+				<select name="priority">
+					<option value="1">low</option>
+					<option value="2">medium</option>
+					<option value="3">high</option>
+				</select>
+				
+				<label id="label"><b>Start Date</b></label>
+				<input type="date" placeholder="Start Date" name="st_date" required>
+
+				<label id="label"><b>End Date</b></label>
+				<input type="date" placeholder="End Date" name="end_date" required>
+
+				<div id="inlineLabel">
+
+						<label><b>User Assing</b></label>
+						<select name='userAssing'>
+							<option value="1">low</option>
+							<option value="2">medium</option>
+							<option value="3">high</option>
+						</select>
+									
+						<label><b>Status</b></label>
+						<select  name='status'>
+							<option value="1">todo</option>
+						</select>
+					
+				</div>	
+			</div>
+			<div class="clearfix">
+				<div id="buttons">
+					<button type="button" onclick="document.getElementById('pop_up').style.display='none'" class="cancelbtn">Cancel</button>
+					<button type="submit" name="submit" value="submt" class="addbtn">Add</button>
+				</div>
+			</div>
+	    </div>
+	  </form>
+	</div>
+</div>

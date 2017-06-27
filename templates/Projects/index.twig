@@ -1,0 +1,37 @@
+{% extends "layouts/layout.twig" %}
+	
+{% block title %} todo {% endblock %}
+{% block username %}{{ username }} {% endblock %}
+	{% block top_main_bar %}
+		{% include 'partials/project_top_bar_menu.twig' %}
+	{% endblock %}
+
+	{% block base_contentt %}
+		
+		<div class="row">
+			<div class="col-md-12">
+			{% for project in projects %}
+					<a href="projects/{{project.id}}">
+					 <div class="project_box">
+					 	<div class="status">In Design</div>
+					 	<div class="type">Web app</div>
+					 	<div class="name">{{project.name}}</div>
+					 	<div class="days_left">
+					 		<div class="design">14</div>
+					 		<label>DAYS LEFT <br>IN DESIGN</label>
+					 		<hr class="line">
+					 		<div class="finish">74</div>
+					 		<label class="label_second">DAYS TO <br>FINISH</label>
+					 	</div>
+					 	<div class="tickets">
+					 		<div class="todo">22</div>
+					 		<div class="doing">33</div>
+					 		<div class="done">44</div>
+					 	</div>
+					 </div>
+					 </a>
+			 	{% endfor %}
+			</div>
+
+		</div>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends "layouts/layout.twig" %}
+	
+	{% block title %} doing {% endblock %}
+{% block username %}{{ username }} {% endblock %}
+	{% block top_main_bar %}
+		{% include 'partials/top_main_bar_menu.twig' %}
+	{% endblock %}
+
+	{% block base_contentt %}
+		
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+				<div class="panel-heading">Doing</div>
+					 {% include 'partials/ticket_table.twig' %}
+				</div>	
+			</div>
+		</div>
+{% endblock %}
